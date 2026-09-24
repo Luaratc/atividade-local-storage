@@ -1,0 +1,72 @@
+:root{
+    --bg-color:#f4f4f4;
+    --text-color:#333333;
+    --bg-box-color:#ffffff;
+    --h2-color:#f393eb;
+
+}
+html.modo-escuro{
+    --bg-color:rgb(30, 2, 36);
+    --text-color:white;
+    --bg-box-color:#4b4b4b;
+    --h2-color:#cfa4ec;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px ;
+    font-size: 1em;
+}
+.container {
+	min-width: 800px;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	color: var(--text-color);
+}
+
+.cabecalho-musica {
+	background-color: var(--bg-box-color);
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	color: var(--text-color);
+
+	ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+}       
+
+#descricao, #letra {
+	background-color: var(--bg-box-color);
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#descricao h2, #letra h2 {
+	margin-bottom: 10px;
+	color: var(--h2-color);
+}
+
+.ultima-linha {
+	margin-bottom: 20px;
+}
+
+#btn-tema {
+	width: 120px;
+}
